@@ -1,0 +1,41 @@
+.navbar .dropdown-menu a:hover {
+    color: #d1d1d1 !important;
+    background-color: #1B2331 !important;
+}
+
+.darken-grey-text {
+    color: #2E2E2E;
+}
+
+.read {
+    background-color: #1B2331;
+}
+
+.navbar-brand{
+    font-size: 30px;
+}
+
+.categories {
+    text-align: center;
+    margin-top: 2rem;
+}
+.categories h2{
+    font-family: 'Julius Sans One';    
+}
+.single-source {
+    box-shadow: 2px 4px 12px 2px #DCDCDC;
+    margin: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-radius: 8px;
+    background-color: #fff;
+    height: auto;
+}
+
+.source-name {
+    text-align: right;
+}
+
+.source-details {
+    border-left: 1px solid rgba(88, 88, 88, 0.548)
+}

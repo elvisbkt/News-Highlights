@@ -1,0 +1,32 @@
+h1 {
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+    font-size: 70px;
+    word-wrap: break-word;
+    color: white
+}
+
+.categories {
+    text-align: center;
+    margin-top: 2rem;
+}
+.categories h2{
+    font-family: 'Julius Sans One';    
+}
+.single-source {
+    box-shadow: 2px 4px 12px 2px #DCDCDC;
+    margin: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-radius: 8px;
+    background-color: #fff;
+    height: 100px;
+}
+
+.source-name {
+    text-align: right;
+}
+
+.source-details {
+    border-left: 1px solid rgba(88, 88, 88, 0.548)
+}
