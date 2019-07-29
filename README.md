@@ -13,7 +13,7 @@ This is a news application that allows a user to view news from different networ
 ## Cloning and running
 Clone the application using git clone(this copies the app onto your device). In terminal:
 
-  *  $ git clone https://github.com/elvisbkt/News-reel
+  *  $ git clone https://github.com/elvisbkt/News-Highlights
   *  $ cd news_app
 
 ## Creating the virtual environment
