@@ -1,0 +1,18 @@
+
+{% extends 'base.html'%}
+
+<!-- Content block -->
+{% block content %}
+<h1 class="text-center">Articles from {{title}}</h1>
+{% for news_article in article_list %}
+<div>
+    {{ news_article.article_title}} <br>
+    {{news_article.author}} <br>
+    {{news_article.urlToImage}} <br>
+    {{news_article.description}}
+    {{news_article.publishedAt}}
+    {{news_article.content}}
+</div>
+{% endfor %}
+
+{% endblock%}
