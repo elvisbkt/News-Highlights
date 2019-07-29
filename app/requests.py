@@ -99,8 +99,7 @@ def process_news_results(news_list):
         description = news_item.get('description')
         url = news_item.get('url')
         urlToImage = news_item.get('urlToImage')
-        publishedAt = news_item.get('publishedAt')
-        content = news_item.get('content')
+        
 
         if urlToImage:    
             news_object = News(sourceName,author,article_title,description, url, urlToImage,publishedAt, content)
